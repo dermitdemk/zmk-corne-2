@@ -39,10 +39,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp X  &kp V  &kp L     &kp C  &kp W        &kp K    &kp H  &kp G      &kp F    &kp Q  &kp BSPC
-&kp LCTRL  &kp U  &kp I  &kp A     &kp E  &kp O        &kp N    &kp R  &kp T      &kp D    &kp D  &kp Y
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp P  &kp Z        &kp B    &kp M  &kp COMMA  &kp DOT  &kp J  &kp ESC
-                         &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
+&kp TAB    &kp X  &kp V  &kp L     &kp C  &kp W        &kp K    &kp H          &kp G      &kp F    &kp Q  &kp BSPC
+&kp LCTRL  &kp U  &kp I  &kp A     &kp E  &kp O        &kp N    &kp R          &kp T      &kp D    &kp D  &kp Y
+&kp LSHFT  &kp Z  &kp X  &kp C     &kp P  &kp Z        &kp B    &kp M          &kp COMMA  &kp DOT  &kp J  &kp ESC
+                         &kp LGUI  &mo 1  &kp SPACE    &kp RET  &kp BACKSPACE  &kp RALT
             >;
         };
 
@@ -57,16 +57,16 @@
 &kp TAB     &kp N1    &kp BSPC  &kp UP    &kp DEL    &kp N5       &kp N6    &kp N7  &kp N8    &kp N9  &kp N0  &kp BSPC
 &bt BT_CLR  &kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT  &kp END      &kp LEFT  &kp N4  &kp N5    &kp N6  &trans  &trans
 &kp LSHFT   &trans    &trans    &trans    &trans     &trans       &trans    &kp N1  &kp N2    &kp N3  &trans  &trans
-                                &kp LGUI  &trans     &kp SPACE    &kp RET   &trans  &kp RALT
+                                &kp LGUI  &trans     &kp SPACE    &kp RET   &mo 2   &kp RALT
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &kp X  &kp V          &kp L           &kp C     &kp W        &kp K    &kp H     &kp G      &kp F    &kp Q  &trans
-&trans  &kp U  &kp I          &kp A           &kp E     &kp O        &kp S    &kp N     &kp R      &kp T    &kp D  &trans
-&trans  &kp P  &bt BT_DISC 0  &bt BT_CLR_ALL  &kp P     &kp Z        &kp B    &kp M     &kp COMMA  &kp DOT  &kp J  &trans
-                              &kp LCTRL       &kp LGUI  &kp SPACE    &kp RET  &kp BSPC  &kp LALT
+&trans  &kp UNDER  &kp UNDER  &kp LBKT  &kp RBKT   &kp CARET    &kp EXCL   &kp LT     &kp GT    &kp EQUAL  &kp AMPS   &trans
+&trans  &kp BSLH   &kp FSLH   &kp LBRC  &kp RBRC   &kp STAR     &kp QMARK  &kp LPAR   &kp RPAR  &kp MINUS  &kp COLON  &kp AT
+&trans  &kp POUND  &kp DLLR   &kp PIPE  &kp TILDE  &kp GRAVE    &kp PLUS   &kp PRCNT  &kp DQT   &kp SQT    &kp SEMI   &trans
+                              &trans    &trans     &trans       &trans     &trans     &trans
             >;
         };
 
