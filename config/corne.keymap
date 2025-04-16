@@ -14,10 +14,10 @@
 
         layer_3 {
             bindings = <
-&trans  &kp X  &kp V   &kp L      &kp C     &kp W        &kp K    &kp H     &kp G      &kp F    &kp Q  &trans
-&trans  &kp U  &kp I   &kp A      &kp E     &kp O        &kp S    &kp N     &kp R      &kp T    &kp D  &trans
-&trans  &kp P  &trans  &trans     &kp P     &kp Z        &kp B    &kp M     &kp COMMA  &kp DOT  &kp J  &trans
-                       &kp LCTRL  &kp LGUI  &kp SPACE    &kp RET  &kp BSPC  &kp LALT
+&trans  &kp X  &kp V          &kp L           &kp C     &kp W        &kp K    &kp H     &kp G      &kp F    &kp Q  &trans
+&trans  &kp U  &kp I          &kp A           &kp E     &kp O        &kp S    &kp N     &kp R      &kp T    &kp D  &trans
+&trans  &kp P  &bt BT_DISC 0  &bt BT_CLR_ALL  &kp P     &kp Z        &kp B    &kp M     &kp COMMA  &kp DOT  &kp J  &trans
+                              &kp LCTRL       &kp LGUI  &kp SPACE    &kp RET  &kp BSPC  &kp LALT
             >;
         };
 
