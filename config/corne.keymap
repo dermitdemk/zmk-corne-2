@@ -39,10 +39,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp X  &kp V  &kp L     &kp C      &kp W    &kp K    &kp H          &kp G      &kp F    &kp Q  &kp BSPC
-&kp LCTRL  &kp U  &kp I  &kp A     &kp E      &kp O    &kp S    &kp N          &kp R      &kp T    &kp D  &kp Y
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp P      &kp Z    &kp B    &kp M          &kp COMMA  &kp DOT  &kp J  &kp ESC
-                         &kp LGUI  &kp SPACE  &mo 1    &kp RET  &kp BACKSPACE  &kp RALT
+&kp TAB    &kp X  &kp V  &kp L               &kp C      &kp W     &kp K    &kp H          &kp G                &kp F    &kp Q  &kp BSPC
+&kp LCTRL  &kp U  &kp I  &mt LEFT_CONTROL A  &kp E      &kp O     &kp S    &kp N          &mt RIGHT_CONTROL R  &kp T    &kp D  &kp Y
+&kp LSHFT  &kp Z  &kp X  &kp C               &kp P      &kp Z     &kp B    &kp M          &kp COMMA            &kp DOT  &kp J  &kp ESC
+                         &kp LGUI            &kp SPACE  &tog 1    &kp RET  &kp BACKSPACE  &kp RALT
             >;
         };
 
@@ -54,10 +54,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp N1    &kp BSPC  &kp UP    &kp DEL    &kp N5       &kp N6    &kp N7        &kp N8    &kp N9  &kp N0  &kp BSPC
-&bt BT_CLR  &kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT  &kp END      &kp LEFT  &kp N4        &kp N5    &kp N6  &trans  &trans
-&kp LSHFT   &trans    &trans    &trans    &trans     &trans       &trans    &kp N1        &kp N2    &kp N3  &trans  &trans
-                                &kp LGUI  &trans     &kp SPACE    &mo 2     &kp NUMBER_0  &kp RALT
+&kp TAB     &kp N1    &kp BSPC  &kp UP    &kp DEL    &kp N5     &kp N6    &kp N7        &kp N8    &kp N9  &kp N0  &kp BSPC
+&bt BT_CLR  &kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT  &kp END    &kp LEFT  &kp N4        &kp N5    &kp N6  &trans  &trans
+&kp LSHFT   &trans    &trans    &trans    &trans     &trans     &trans    &kp N1        &kp N2    &kp N3  &trans  &trans
+                                &kp LGUI  &kp SPACE  &tog 1     &mo 2     &kp NUMBER_0  &kp RALT
             >;
         };
 
